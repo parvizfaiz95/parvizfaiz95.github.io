@@ -1,0 +1,86 @@
+<! -- GEOG 6150" -- >
+<! -- Parviz Faiz -- >
+<! -- April 9, 2024 -- >
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parviz Faiz: GEOG 6150</title>
+    <link rel="stylesheet" href="css_Faiz.css">
+</head>
+<body>
+    <h1 style="text-align: center;">GEOG 6150</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">U of U Geography</a>
+        <a href="#">Final Project</a>
+    </nav>
+    <nav class="left-nav" id="leftNav">
+        <h2 class="subheading">My Projects</h2>
+        <div style="text-align: left;"
+        class="vertical-tabs">
+            <a href="#" class="active">Project 1</a>
+            <a href="#">Project 2</a>
+            <a href="#">Project 3</a>
+            <div id="moreProjects" style="display: none;">
+                <a href="#">Project 4</a>
+                <a href="#">Project 5</a>
+                <a href="#">Project 6</a>
+                <a href="#">Project 7</a>
+                <a href="#">Project 8</a>
+                <a href="#">Project 9</a>
+                <a href="#">Project 10</a>
+                <a href="#">Project 11</a>
+                <a href="#">Project 12</a>
+                <a href="#">Project 13</a>
+            </div>
+            <a href="#" id="expandBtn" onclick="expandProjects()">...</a>
+        </div>
+    </nav>
+
+    <div class="contact-info">
+        <img src="https://media.licdn.com/dms/image/D5603AQHBjrWTI06lug/profile-displayphoto-shrink_800_800/0/1705078608243?e=2147483647&v=beta&t=vIBC4ybeeODWCUhMaQg-IqyasTuLUcisjaSYnSxGq6g" alt="Parviz Faiz">
+        <ul>
+            <h3>Parviz Faiz</h3>
+            <li><span class="bold">Program:</span> M.S.</li>
+            <li><span class="bold">Major:</span> City and Metropolitan Planning</li>
+            <li><span class="bold">Email:</span> <a href="mailto:parvizfaiz95@gmail.com">parvizfaiz95@gmail.com</a></li>
+        </ul>
+    </div>
+
+    <div class="research-interests">
+        <h3>Research Interests</h3>
+        <ul>
+            <li>Active Transportation</li>
+            <li>Smart Growth</li>
+            <li>Historic Preservation</li>
+        </ul>
+    </div>
+
+    <footer>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">U of U Geography</a>
+            <a href="#">Final Project</a>
+        </nav>
+        <p>
+            <span class="copyright">Copyright 2024</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="bold">Parviz Faiz</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            All Rights Reserved
+        </p>
+    </footer>
+
+    <script>
+        function expandProjects() {
+            var moreProjects = document.getElementById("moreProjects");
+            if (moreProjects.style.display === "none") {
+                moreProjects.style.display = "block";
+            } else {
+                moreProjects.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
